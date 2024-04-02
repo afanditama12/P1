@@ -1,4 +1,7 @@
 <?php
+
+namespace Affandi\TugasP1;
+
 class TuringMachine
 {
     public function run()
@@ -47,6 +50,5 @@ class TuringMachine
     }
 }
 
-// Membuat objek TuringMachine dan menjalankannya
 $turingMachine = new TuringMachine();
 $turingMachine->run();
