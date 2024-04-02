@@ -1,0 +1,24 @@
+{
+  "name": "affandipratama/tugas-p1",
+  "description": "Tugas P1 Kecerdasan Buatan",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Affandi Pratama",
+      "email": "afandip911@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^10.0.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Affandi\\TugasP1\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Affandi\\TugasP1\\": "tests"
+    }
+  }
+}
